@@ -1,3 +1,6 @@
 pub fn reverse(input: &str) -> String {
-    unimplemented!("Write a function to reverse {}", input);
+    let vec = input.as_bytes();
+    vec.reverse();
+    let reversed = String::from_utf8(vec);
+    return reversed.unwrap();
 }
