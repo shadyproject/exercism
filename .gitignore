@@ -2,3 +2,4 @@
 .DS_Store
 **/.exercism
 **/__pycache__
+*.code-workspace
